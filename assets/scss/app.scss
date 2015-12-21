@@ -1,5 +1,25 @@
-@charset 'utf-8';
+@font-face {
+    font-family: 'clear_sans_mediumregular';
+    src: url('../fonts/ClearSans-Medium-webfont.eot');
+    src: url('../fonts/ClearSans-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ClearSans-Medium-webfont.woff') format('woff'),
+         url('../fonts/ClearSans-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/ClearSans-Medium-webfont.svg#clear_sans_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'clear_sans_lightregular';
+    src: url('../fonts/ClearSans-Light-webfont.eot');
+    src: url('../fonts/ClearSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ClearSans-Light-webfont.woff') format('woff'),
+         url('../fonts/ClearSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/ClearSans-Light-webfont.svg#clear_sans_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@charset 'utf-8';
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';

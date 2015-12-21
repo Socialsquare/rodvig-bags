@@ -1,4 +1,8 @@
+
+
 .top-bar {
+  padding-left: 0;
+  padding-right: 0;
   .top-bar-left {
     svg {
       margin-top: 0.5rem;
@@ -6,8 +10,21 @@
       max-width: 8rem;
     }
   }
+  a {
+    color: $body-font-color;
+  }
+  .dropdown.menu {
+    li {
+      display: inline-block;
+    }
+    li:last-child {
+      margin-right: -$topbar-padding;
+    }
+  }
 }
 footer {
   background-color: $secondary-color;
   color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }

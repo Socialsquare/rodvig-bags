@@ -1,4 +1,18 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'clear_sans_mediumregular';
+  src: url("../fonts/ClearSans-Medium-webfont.eot");
+  src: url("../fonts/ClearSans-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Medium-webfont.woff") format("woff"), url("../fonts/ClearSans-Medium-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Medium-webfont.svg#clear_sans_mediumregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'clear_sans_lightregular';
+  src: url("../fonts/ClearSans-Light-webfont.eot");
+  src: url("../fonts/ClearSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ClearSans-Light-webfont.woff") format("woff"), url("../fonts/ClearSans-Light-webfont.ttf") format("truetype"), url("../fonts/ClearSans-Light-webfont.svg#clear_sans_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -377,10 +391,10 @@ body {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "clear_sans_lightregular", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #252627;
   background: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -1115,7 +1129,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "clear_sans_mediumregular", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -1216,17 +1230,17 @@ blockquote {
   border-left: 1px solid #cacaca; }
   blockquote, blockquote p {
     line-height: 1.6;
-    color: #8a8a8a; }
+    color: #252627; }
 
 cite {
   display: block;
   font-size: 0.8125rem;
-  color: #8a8a8a; }
+  color: #252627; }
   cite:before {
     content: '\2014 \0020'; }
 
 abbr {
-  color: #0a0a0a;
+  color: #252627;
   cursor: help;
   border-bottom: 1px dotted #0a0a0a; }
 
@@ -1250,7 +1264,7 @@ kbd {
   margin-bottom: 0.5rem;
   font-weight: normal;
   line-height: 1.4;
-  color: #8a8a8a; }
+  color: #252627; }
 
 .lead {
   font-size: 125%;
@@ -1406,10 +1420,10 @@ kbd {
       background: #147cc0;
       color: #fff; }
   .button.secondary {
-    background: #777;
+    background: #3e4042;
     color: #fff; }
     .button.secondary:hover, .button.secondary:focus {
-      background: #5f5f5f;
+      background: #313335;
       color: #fff; }
   .button.success {
     background: #3adb76;
@@ -1444,11 +1458,11 @@ kbd {
         border-color: #0c4d78;
         color: #0c4d78; }
     .button.hollow.secondary {
-      border: 1px solid #777;
-      color: #777; }
+      border: 1px solid #3e4042;
+      color: #3e4042; }
       .button.hollow.secondary:hover, .button.hollow.secondary:focus {
-        border-color: #3c3c3c;
-        color: #3c3c3c; }
+        border-color: #1f2021;
+        color: #1f2021; }
     .button.hollow.success {
       border: 1px solid #3adb76;
       color: #3adb76; }
@@ -1500,7 +1514,7 @@ textarea {
   margin: 0 0 1rem;
   font-family: inherit;
   font-size: 1rem;
-  color: #8a8a8a;
+  color: #252627;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   border-radius: 0;
@@ -1509,7 +1523,7 @@ textarea {
   -moz-appearance: none; }
   [type="text"]:focus, [type="password"]:focus, [type="date"]:focus, [type="datetime"]:focus, [type="datetime-local"]:focus, [type="month"]:focus, [type="week"]:focus, [type="email"]:focus, [type="number"]:focus, [type="search"]:focus, [type="tel"]:focus, [type="time"]:focus, [type="url"]:focus, [type="color"]:focus,
   textarea:focus {
-    border: 1px solid #8a8a8a;
+    border: 1px solid #252627;
     background: #fefefe;
     outline: none;
     box-shadow: 0 0 5px #cacaca;
@@ -1629,7 +1643,7 @@ select {
   font-size: 1rem;
   font-family: inherit;
   line-height: normal;
-  color: #8a8a8a;
+  color: #252627;
   background-color: #fafafa;
   border-radius: 0;
   -webkit-appearance: none;
@@ -1812,7 +1826,7 @@ select {
   background: #2199e8;
   color: #fefefe; }
   .badge.secondary {
-    background: #777;
+    background: #3e4042;
     color: #fefefe; }
   .badge.success {
     background: #3adb76;
@@ -1894,10 +1908,10 @@ select {
       background: #147cc0;
       color: #fff; }
   .button-group.secondary .button {
-    background: #777;
+    background: #3e4042;
     color: #fff; }
     .button-group.secondary .button:hover, .button-group.secondary .button:focus {
-      background: #5f5f5f;
+      background: #313335;
       color: #fff; }
   .button-group.success .button {
     background: #3adb76;
@@ -1944,7 +1958,11 @@ select {
       .callout.primary a:hover {
         color: #0a4063; }
   .callout.secondary {
-    background-color: #ebebeb; }
+    background-color: #e1e2e3; }
+    .callout.secondary a {
+      color: #2b2d2e; }
+      .callout.secondary a:hover {
+        color: #060607; }
   .callout.success {
     background-color: #e1faea; }
     .callout.success a {
@@ -1976,7 +1994,7 @@ select {
 
 .close-button {
   position: absolute;
-  color: #8a8a8a;
+  color: #252627;
   right: 1rem;
   top: 0.5rem;
   font-size: 2em;
@@ -2177,7 +2195,7 @@ select {
   background: #2199e8;
   color: #fefefe; }
   .label.secondary {
-    background: #777;
+    background: #3e4042;
     color: #fefefe; }
   .label.success {
     background: #3adb76;
@@ -2454,9 +2472,9 @@ body {
     background-color: #cacaca;
     border-radius: 50%; }
     .orbit-bullets button:hover {
-      background-color: #8a8a8a; }
+      background-color: #252627; }
     .orbit-bullets button.is-active {
-      background-color: #8a8a8a; }
+      background-color: #252627; }
 
 .pagination {
   margin-left: 0;
@@ -2517,7 +2535,7 @@ body {
   .progress.primary .progress-meter {
     background-color: #2199e8; }
   .progress.secondary .progress-meter {
-    background-color: #777; }
+    background-color: #3e4042; }
   .progress.success .progress-meter {
     background-color: #3adb76; }
   .progress.alert .progress-meter {
@@ -2826,7 +2844,7 @@ table {
   thead,
   tfoot {
     background: #f8f8f8;
-    color: #0a0a0a; }
+    color: #252627; }
     thead tr,
     tfoot tr {
       background: transparent; }
@@ -2997,7 +3015,7 @@ table.hover tr:nth-of-type(even):hover {
     box-shadow: 0 7px 0 #666, 0 14px 0 #666; }
 
 .has-tip {
-  border-bottom: dotted 1px #8a8a8a;
+  border-bottom: dotted 1px #252627;
   font-weight: bold;
   position: relative;
   display: inline-block; }
@@ -3076,7 +3094,7 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar::after {
     clear: both; }
   .top-bar, .top-bar ul {
-    background-color: #eee; }
+    background-color: #fefefe; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }
@@ -3671,11 +3689,22 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
 
-.top-bar .top-bar-left svg {
-  margin-top: 0.5rem;
-  display: block;
-  max-width: 8rem; }
+.top-bar {
+  padding-left: 0;
+  padding-right: 0; }
+  .top-bar .top-bar-left svg {
+    margin-top: 0.5rem;
+    display: block;
+    max-width: 8rem; }
+  .top-bar a {
+    color: #252627; }
+  .top-bar .dropdown.menu li {
+    display: inline-block; }
+  .top-bar .dropdown.menu li:last-child {
+    margin-right: -0.5rem; }
 
 footer {
-  background-color: #777;
-  color: white; }
+  background-color: #3e4042;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
