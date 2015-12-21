@@ -10,3 +10,6 @@ fields:
   description:
     label: Description
     type:  textarea
+  contact:
+    label: Contact Info
+    type: textarea

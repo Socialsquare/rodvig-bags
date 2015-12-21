@@ -8,12 +8,7 @@
           <div><a href="tel:<?php echo $item->phone() ?>"><?php echo $item->phone() ?></a></div>
         </div>
       <?php endforeach ?>
-      <div class="column">
-        Rodvig Bags ApS<br>
-        Ågerupvej 109<br>
-        4390 Vipperød<br><br>
-        CVR: 36702508
-      </div>
+      <div class="column"><?php echo site()->contact() ?></div>
     </div>
     <div class="row">
       <div class="columns text-center copyright">
