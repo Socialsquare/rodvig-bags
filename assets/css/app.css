@@ -3879,6 +3879,12 @@ html {
 h5 {
   margin-bottom: 0; }
 
+.pre {
+  white-space: pre-wrap; }
+
+.odvig {
+  fill: #252627; }
+
 .top-bar {
   padding-left: 0;
   padding-right: 0; }
@@ -3935,26 +3941,32 @@ h5 {
 #bags {
   color: #fefefe;
   background-color: #252627; }
-  #bags p {
-    white-space: pre; }
   #bags img {
     margin-bottom: 0.5rem; }
 
 footer {
   background-color: #252627;
-  color: white;
+  color: #fefefe;
   padding-top: 2rem;
   padding-bottom: 2rem; }
-  footer .copyright {
-    padding-top: 1.5rem;
-    opacity: 0.5; }
+  footer .odvig {
+    fill: #fefefe; }
+  footer svg {
+    max-width: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  footer .profile {
+    margin-bottom: 2rem; }
   footer img {
     max-width: 6rem;
     border-radius: 50%;
-    margin-bottom: 1rem; }
+    margin-bottom: 0.5rem; }
   footer p {
     margin-bottom: 0; }
   footer a {
     color: inherit !important; }
     footer a:hover {
       text-decoration: underline; }
+  footer .copyright {
+    padding-top: 1.5rem;
+    opacity: 0.5; }

@@ -1,14 +1,14 @@
   <footer id="contact">
     <div class="row small-up-1 medium-up-3 text-center">
       <?php foreach (page('profiles')->images()->limit(2) as $item): ?>
-        <div class="column">
+        <div class="column profile">
           <img src="<?php echo $item->url() ?>" />
           <div><?php echo $item->profile_name() ?></div>
           <div><a href="mailto:<?php echo $item->email() ?>"><?php echo $item->email() ?></a></div>
           <div><a href="tel:<?php echo $item->phone() ?>"><?php echo $item->phone() ?></a></div>
         </div>
       <?php endforeach ?>
-      <div class="column"><?php echo site()->contact() ?></div>
+      <div class="column pre"><?php snippet('logo'); echo site()->contact() ?></div>
     </div>
     <div class="row">
       <div class="columns text-center copyright">
