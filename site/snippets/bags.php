@@ -1,6 +1,6 @@
 <div class="section" id="bags">
   <div class="row">
-    <div class="columns">
+    <div class="column">
       <h3><?php echo page('bags')->title() ?></h3>
     </div>
     <?php foreach (page('bags')->images() as $item): ?>

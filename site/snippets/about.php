@@ -1,6 +1,6 @@
 <div class="section" id="about">
   <div class="row">
-    <div class="columns">
+    <div class="column">
       <h3><?php echo page('about')->title()->html() ?></h3>
     </div>
     <div class="medium-6 columns">

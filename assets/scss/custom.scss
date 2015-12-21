@@ -1,4 +1,4 @@
-$section-padding: 2rem;
+$section-padding: 3rem;
 
 // Global styling
 html {
@@ -16,6 +16,12 @@ h5 {
 }
 .columns:not(:last-child) {
   margin-bottom: 1rem;
+}
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
 }
 
 // Section specific styling

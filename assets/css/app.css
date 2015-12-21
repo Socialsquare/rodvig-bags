@@ -3888,6 +3888,12 @@ h5 {
 .columns:not(:last-child) {
   margin-bottom: 1rem; }
 
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
 .top-bar {
   padding-left: 0;
   padding-right: 0; }
@@ -3918,7 +3924,7 @@ h5 {
 .owl-carousel {
   color: white;
   background-color: #252627;
-  margin-bottom: 2rem; }
+  margin-bottom: 3rem; }
   .owl-carousel .item {
     height: 80vh;
     max-height: 600px; }
@@ -3938,8 +3944,8 @@ h5 {
     right: 0; }
 
 .section {
-  padding-bottom: 2rem;
-  padding-top: 2rem; }
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
 
 #bags {
   color: #fefefe;
