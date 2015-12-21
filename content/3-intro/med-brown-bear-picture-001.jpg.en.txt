@@ -1,5 +1,5 @@
-Caption: What we sell
+Caption: Intro item 1
 
 ----
 
-Description: Good bags
+Description: This is the intro

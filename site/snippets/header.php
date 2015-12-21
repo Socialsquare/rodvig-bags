@@ -9,6 +9,7 @@
     <?php echo $site->title()->html() ?>
   </title>
   <meta name="description" content="<?php echo $site->description()->html() ?>">
+  <?php snippet('favicon') ?>
   <?php echo css('assets/css/app.css') ?>
 </head>
 
