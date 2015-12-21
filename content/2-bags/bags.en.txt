@@ -1,0 +1,9 @@
+Title: Bags
+
+----
+
+Text: This is in english now
+
+----
+
+Url-key: bags
