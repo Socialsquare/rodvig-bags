@@ -3694,8 +3694,8 @@ table.hover tr:nth-of-type(even):hover {
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
-  -webkit-animation-duration: 1000ms;
-  animation-duration: 1000ms;
+  -webkit-animation-duration: 1500ms;
+  animation-duration: 1500ms;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
@@ -3885,13 +3885,24 @@ h5 {
 .odvig {
   fill: #252627; }
 
+.rodvig-red {
+  fill: #ee3427; }
+
+.ukblue {
+  fill: #084CA1; }
+
 .columns:not(:last-child) {
   margin-bottom: 1rem; }
 
-.column:last-child:not(:first-child), .columns:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
   float: left; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase; }
 
 .top-bar {
@@ -3900,16 +3911,23 @@ h1, h2, h3, h4, h5, h6 {
   .top-bar .top-bar-left svg {
     margin-top: 0.25rem;
     display: block;
-    max-width: 12rem; }
+    height: 2rem;
+    width: 12.04819rem; }
   .top-bar a {
     color: #252627;
     font-family: "clear_sans_mediumregular", Helvetica, Roboto, Arial, sans-serif; }
-  .top-bar .dropdown.menu li {
-    display: inline-block; }
-  .top-bar .dropdown.menu li:first-child {
-    margin-left: -1.2rem; }
-  .top-bar .dropdown.menu li:last-child {
-    margin-right: -0.75rem; }
+  .top-bar .dropdown.menu {
+    text-transform: uppercase; }
+    .top-bar .dropdown.menu li {
+      display: inline-block; }
+    .top-bar .dropdown.menu li:first-child {
+      margin-left: -1.2rem; }
+    .top-bar .dropdown.menu li a.switcher {
+      padding-top: 0;
+      padding-bottom: 0; }
+    .top-bar .dropdown.menu svg {
+      height: 1.5rem;
+      width: 1.5rem; }
 
 .title-bar {
   color: #252627;
@@ -3923,29 +3941,41 @@ h1, h2, h3, h4, h5, h6 {
 
 .owl-carousel {
   color: white;
-  background-color: #252627;
-  margin-bottom: 3rem; }
+  margin-bottom: 1.5rem; }
   .owl-carousel .item {
-    height: 80vh;
-    max-height: 600px; }
-  .owl-carousel .owl-text {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    right: 5%; }
-    .owl-carousel .owl-text .row {
-      position: relative; }
-  .owl-carousel img {
-    margin: auto;
+    height: 70vh;
+    max-height: 80vw; }
+  .owl-carousel .background-image {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
-    right: 0; }
+    right: 0;
+    background-size: cover; }
+  .owl-carousel .owl-text {
+    margin-top: 4rem; }
+    .owl-carousel .owl-text div {
+      margin-bottom: 1rem; }
+  .owl-carousel h1 {
+    display: inline;
+    line-height: 1.38;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .owl-carousel p {
+    line-height: 1.34;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline; }
+  .owl-carousel img {
+    object-fit: cover; }
 
 .section {
   padding-bottom: 3rem;
   padding-top: 3rem; }
+
+#intro img {
+  margin: 0 auto 0.5rem;
+  display: block;
+  width: 100%;
+  max-width: 50vw; }
 
 #bags {
   color: #fefefe;
@@ -3956,14 +3986,14 @@ h1, h2, h3, h4, h5, h6 {
 footer {
   background-color: #252627;
   color: #fefefe;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 2rem; }
   footer .odvig {
     fill: #fefefe; }
   footer svg {
-    max-width: 12rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
+    max-height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
   footer .profile {
     margin-bottom: 2rem; }
   footer img {
@@ -3979,3 +4009,17 @@ footer {
   footer .copyright {
     padding-top: 1.5rem;
     opacity: 0.5; }
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .owl-carousel h1 {
+    font-size: 3rem; }
+  .owl-carousel p {
+    font-size: 1.875rem; } }
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .owl-carousel h1 {
+    font-size: 4rem; }
+  .owl-carousel p {
+    font-size: 2.5rem; } }

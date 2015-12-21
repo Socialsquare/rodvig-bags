@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="da">
+<html class="no-js" lang="<?php echo $site->language()?>">
 
 <head>
   <meta charset="utf-8">
@@ -29,9 +29,15 @@
           </div>
           <div class="top-bar-right">
             <ul class="dropdown menu" data-dropdown-menu>
-              <li><a href="#about">About</a></li>
-              <li><a href="#bags">Bags</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about"><?php echo page('about')->title() ?></a></li>
+              <li><a href="#bags"><?php echo page('bags')->title() ?></a></li>
+              <li><a href="#contact">
+                <?php if ($site->language() == 'en'): ?>
+                  Contact
+                <?php else: ?>
+                  Kontakt
+                <?php endif ?>
+              </a></li>
               <?php snippet('language_switch') ?>
             </ul>
           </div>

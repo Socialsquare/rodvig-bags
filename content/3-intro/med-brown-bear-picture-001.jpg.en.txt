@@ -1,5 +1,0 @@
-Caption: Intro item 1
-
-----
-
-Description: This is the intro

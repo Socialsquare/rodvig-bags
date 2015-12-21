@@ -1,5 +1,0 @@
-Caption: Taske nummer 1
-
-----
-
-Description: Beskrivelse af taske nummer 1

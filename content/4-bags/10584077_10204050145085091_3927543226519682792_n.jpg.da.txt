@@ -1,5 +1,0 @@
-Caption: Tasker
-
-----
-
-Description: Gode tasker

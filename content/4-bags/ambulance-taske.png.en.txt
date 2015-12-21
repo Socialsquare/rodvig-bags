@@ -1,5 +1,0 @@
-Caption: Ambulance taske
-
-----
-
-Description: This is an english description

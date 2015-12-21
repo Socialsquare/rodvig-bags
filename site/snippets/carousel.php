@@ -1,12 +1,14 @@
 <div class="owl-carousel">
-  <?php foreach(page('carousel')->images() as $item): ?>
+  <?php foreach(page('carousel')->images()->sortBy('sort', 'asc') as $item): ?>
     <div class="item">
-      <img src="<?php echo $item->url() ?>" alt="<?php echo $item->title()->html() ?>" >
-      <div class="owl-text">
-        <div class="row">
-          <div class="columns">
-            <h3><?php echo $item->caption()->html() ?></h3>
-            <p><?php echo $item->description() ?></p>
+      <div class="background-image" style="background-image: url('<?php echo $item->url()?>')">
+        <div class="owl-text">
+          <div class="row">
+            <div class="columns">
+              <h1><?php echo $item->caption() ?></h1>
+              <div></div>
+              <p><?php echo $item->description() ?></p>
+            </div>
           </div>
         </div>
       </div>

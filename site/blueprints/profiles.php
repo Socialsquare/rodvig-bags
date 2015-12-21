@@ -15,6 +15,7 @@ files:
       label: Phone number
       type:  text
   type: image
+  sortable: true
 
 fields:
   title:
