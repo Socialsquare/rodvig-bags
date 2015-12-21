@@ -2,14 +2,14 @@ Title: Rodvig
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Her skal der stå en beskrivelse af Rodvig bags. Helst ikke for mange tegn
 
 ----
 
 Contact: 
 
 Rodvig Bags ApS
-Ågerupvej 109
+Ågerupvej 109
 4390 Vipperød
 
 CVR: 36702508

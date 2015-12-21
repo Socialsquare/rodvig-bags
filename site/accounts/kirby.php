@@ -7,9 +7,9 @@ password: >
 language: en
 role: admin
 history:
+  - home
   - profiles
   - carousel
-  - home
   - bags
   - about
 firstname: ""
