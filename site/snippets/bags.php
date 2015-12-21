@@ -1,7 +1,8 @@
 <div class="row">
-  <h2 class="bags"><?php echo page('bags')->title() ?></h2>
-
-
+  <div class="columns">
+    <h2 class="bags"><?php echo page('bags')->title() ?></h2>
+  </div>
+  
   <?php foreach (page('bags')->children()->visible()->limit(3) as $project): ?>
     <div class="small-6 large-4 columns">
       <h3><?php echo $project->title()->html() ?></h3>

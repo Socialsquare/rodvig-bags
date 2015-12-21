@@ -22,15 +22,17 @@
 
     <div class="top-bar" id="rodvig-menu">
       <div class="row">
-        <div class="top-bar-left">
-            <?php snippet('logo') ?>
-        </div>
-        <div class="top-bar-right">
-          <ul class="dropdown menu" data-dropdown-menu>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Bags</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+        <div class="columns">
+          <div class="top-bar-left">
+              <?php snippet('logo') ?>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li><a href="#">About</a></li>
+              <li><a href="#bags">Bags</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
