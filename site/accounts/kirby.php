@@ -7,10 +7,10 @@ password: >
 language: en
 role: admin
 history:
+  - error
   - about
   - home
   - profiles
   - carousel
-  - bags
 firstname: ""
 lastname: ""
