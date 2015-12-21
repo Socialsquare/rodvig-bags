@@ -29,9 +29,10 @@
           </div>
           <div class="top-bar-right">
             <ul class="dropdown menu" data-dropdown-menu>
-              <li><a href="#">About</a></li>
+              <li><a href="#about">About</a></li>
               <li><a href="#bags">Bags</a></li>
               <li><a href="#contact">Contact</a></li>
+              <?php snippet('language_switch') ?>
             </ul>
           </div>
         </div>

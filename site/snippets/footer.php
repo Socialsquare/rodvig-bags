@@ -16,7 +16,7 @@
       </div>
     </div>
   </footer>
-  <script src="assets/bower_components/jquery/dist/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="assets/bower_components/what-input/what-input.js"></script>
   <script src="assets/bower_components/foundation-sites/dist/foundation.js"></script>
   <script src="assets/js/owl.js"></script>
