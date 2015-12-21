@@ -7,13 +7,13 @@ c::set('languages', array(
     'code'    => 'da',
     'name'    => 'Danish',
     'locale'  => 'da-DK',
-    'url'     => '/',
+    'url'     => '/da',
   ),
   array(
     'code'    => 'en',
     'name'    => 'English',
     'default' => true,
     'locale'  => 'en_US',
-    'url'     => '/en',
+    'url'     => '/',
   ),
 ));

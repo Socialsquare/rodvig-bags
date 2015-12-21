@@ -15,3 +15,8 @@ files:
       label: Phone number
       type:  text
   type: image
+
+fields:
+  title:
+    label: title
+    type: text

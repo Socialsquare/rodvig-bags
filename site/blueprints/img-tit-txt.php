@@ -16,3 +16,8 @@ files:
       required: true
   sortable: true
   type: image
+
+fields:
+  title:
+    label: Title
+    type: text
