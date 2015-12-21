@@ -1,0 +1,13 @@
+.top-bar {
+  .top-bar-left {
+    svg {
+      margin-top: 0.5rem;
+      display: block;
+      max-width: 8rem;
+    }
+  }
+}
+footer {
+  background-color: $secondary-color;
+  color: white;
+}
