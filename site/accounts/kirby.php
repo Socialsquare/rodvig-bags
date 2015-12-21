@@ -6,7 +6,6 @@ password: >
   $2a$10$lcJYqHdR3TcXogecyLQpC.MYeM6OWhQhuMDLXtWTazhx7YADPFZja
 language: en
 role: admin
-history:
-  - bags
+history: [ ]
 firstname: ""
 lastname: ""

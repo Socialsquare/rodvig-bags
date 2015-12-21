@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Carousel
+title: Image Title Text
 preview: parent
 deletable: false
 pages: false
