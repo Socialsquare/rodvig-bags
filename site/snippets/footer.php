@@ -1,14 +1,13 @@
   <footer id="contact">
     <div class="row small-up-1 medium-up-3 text-center">
-      <div class="column">
-        <img src="http://lorempixel.com/400/400/people/8/" />
-        <div>Lars Larsen</div>
-        <div><a href="mailto:andreas@larsenwork.com">andreas@larsenwork.com</a></div>
-        <div><a href="tel:+45 60 77 60 78">+45 60 77 60 78</a></div>
-      </div>
-      <div class="column">
-        <img src="http://lorempixel.com/400/400/people/7/" />
-      </div>
+      <?php foreach (page('profiles')->images()->limit(2) as $item): ?>
+        <div class="column">
+          <img src="<?php echo $item->url() ?>" />
+          <div><?php echo $item->profile_name() ?></div>
+          <div><a href="mailto:<?php echo $item->email() ?>"><?php echo $item->email() ?></a></div>
+          <div><a href="tel:<?php echo $item->phone() ?>"><?php echo $item->phone() ?></a></div>
+        </div>
+      <?php endforeach ?>
       <div class="column">
         Rodvig Bags ApS<br>
         Ågerupvej 109<br>
