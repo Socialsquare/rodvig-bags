@@ -17,13 +17,13 @@
   <header>
     <div class="title-bar" data-responsive-toggle="rodvig-menu" data-hide-for="medium">
       <button class="menu-icon" type="button" data-toggle></button>
-      <div class="title-bar-title">Menu</div>
+      <?php snippet('logo') ?>
     </div>
 
     <div class="top-bar" id="rodvig-menu">
       <div class="row">
         <div class="columns">
-          <div class="top-bar-left">
+          <div class="top-bar-left hide-for-small-only">
               <?php snippet('logo') ?>
           </div>
           <div class="top-bar-right">
