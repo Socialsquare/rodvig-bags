@@ -2,4 +2,7 @@ Caption: A big bear!
 
 ----
 
-Description: brown bears!
+Description: 
+
+brown bears!
+line 2

@@ -1,5 +1,5 @@
-Caption: Caption
+Caption: This is the caption
 
 ----
 
-Description: Desc
+Description: This is a description

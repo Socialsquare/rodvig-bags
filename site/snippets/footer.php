@@ -1,14 +1,15 @@
   <footer id="contact">
-    <div class="row small-up-1 medium-up-3">
+    <div class="row small-up-1 medium-up-3 text-center">
       <div class="column">
-        <h3>Ole Olsen</h3>
         <img src="http://lorempixel.com/400/400/people/8/" />
+        <div>Lars Larsen</div>
+        <div><a href="mailto:andreas@larsenwork.com">andreas@larsenwork.com</a></div>
+        <div><a href="tel:+45 60 77 60 78">+45 60 77 60 78</a></div>
       </div>
       <div class="column">
-        <h3>Lars Larsen</h3>
+        <img src="http://lorempixel.com/400/400/people/7/" />
       </div>
       <div class="column">
-        <h3>Adresse</h3>
         Rodvig Bags ApS<br>
         Ågerupvej 109<br>
         4390 Vipperød<br><br>
