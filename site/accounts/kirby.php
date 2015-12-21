@@ -7,5 +7,5 @@ password: >
 language: da
 role: admin
 history:
-  - bags/bags-a
   - bags
+  - bags/bags-a
