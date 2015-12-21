@@ -1,19 +1,14 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Project
+title: Bag
 pages: false
+preview: parent
 files:
   sortable: true
 fields:
   title:
     label: Title
     type:  text
-  year:
-    label: Year
-    type:  text
   text:
     label: Text
     type:  textarea
-  tags:
-    label: Tags
-    type:  tags

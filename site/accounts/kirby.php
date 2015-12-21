@@ -8,4 +8,3 @@ language: da
 role: admin
 history:
   - bags
-  - bags/bags-a

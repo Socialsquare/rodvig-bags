@@ -1,10 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Bags
-preview: parent
-pages:
-  template: bag
-files: false
+title: Carousel
 fields:
   title:
     label: Title

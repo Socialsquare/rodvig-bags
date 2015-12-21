@@ -6,8 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    <?php echo $site->title()->html() ?> |
-      <?php echo $page->title()->html() ?>
+    <?php echo $site->title()->html() ?>
   </title>
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <?php echo css('assets/css/app.css') ?>
