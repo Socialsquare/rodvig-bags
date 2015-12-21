@@ -1,12 +1,12 @@
 <div class="section" id="bags">
   <div class="row">
     <div class="columns">
-      <h2><?php echo page('bags')->title() ?></h2>
+      <h3><?php echo page('bags')->title() ?></h3>
     </div>
     <?php foreach (page('bags')->images() as $item): ?>
       <div class="small-6 large-4 columns">
         <img src="<?php echo $item->url() ?>" alt="<?php echo $item->title()->html() ?>" >
-        <h3><?php echo $item->caption()->html() ?></h3>
+        <h5><?php echo $item->caption()->html() ?></h5>
         <p><?php echo $item->description() ?></p>
       </div>
     <?php endforeach ?>

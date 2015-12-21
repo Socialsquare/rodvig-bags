@@ -1,7 +1,15 @@
+$section-padding: 2rem;
+
+// Global styling
 html {
   -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h5 {
+  margin-bottom: 0;
+}
+
+// Section specific styling
 .top-bar {
   padding-left : 0;
   padding-right: 0;
@@ -13,7 +21,7 @@ html {
     }
   }
   a {
-    color: $body-font-color;
+    color      : $body-font-color;
     font-family: $header-font-family;
   }
   .dropdown.menu {
@@ -28,43 +36,68 @@ html {
     }
   }
 }
+
+// Mobile bar
 .title-bar {
-  color: $body-font-color;
+  color     : $body-font-color;
   background: $white;
   .menu-icon::after {
     background: $body-font-color;
     box-shadow: 0 7px 0 $body-font-color, 0 14px 0 $body-font-color;
   }
   svg {
-    float:right;
+    float: right;
     width: 8rem;
   }
 }
+
+// Carousel
 .owl-carousel {
-  color: white;
+  color           : white;
+  background-color: $body-font-color;
+  margin-bottom   : $section-padding;
   .item {
-    height: 80vh;
+    height    : 80vh;
     max-height: 600px;
   }
   .owl-text {
     position: absolute;
     top     : 10%;
     left    : 5%;
-    right: 5%;
+    right   : 5%;
     .row {
       position: relative;
     }
   }
+  img {
+    margin  : auto;
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    bottom  : 0;
+    right   : 0;
+  }
 }
+
+// Site sections
 .section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: $section-padding;
+  padding-top   : $section-padding;
 }
+
+// Bags
 #bags {
+  color           : $white;
+  background-color: $body-font-color;
   p {
     white-space: pre;
   }
+  img {
+    margin-bottom: 0.5rem;
+  }
 }
+
+// Footer
 footer {
   background-color: $body-font-color;
   color           : white;
@@ -72,10 +105,10 @@ footer {
   padding-bottom  : 2rem;
   .copyright {
     padding-top: 1.5rem;
-    opacity: 0.5;
+    opacity    : 0.5;
   }
   img {
-    max-width: 6rem;
+    max-width    : 6rem;
     border-radius: 50%;
     margin-bottom: 1rem;
   }
