@@ -15,7 +15,9 @@
         4390 Vipperød<br><br>
         CVR: 36702508
       </div>
-      <div class="columns text-right copyright">
+    </div>
+    <div class="row">
+      <div class="columns text-center copyright">
         &copy; <?php echo $site->title()->html() ?> <?php echo date("Y") ?>
       </div>
     </div>
