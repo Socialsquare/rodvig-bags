@@ -93,17 +93,10 @@ h6 {
   .item {
     height    : 70vh;
     max-height: 80vw;
-  }
-  .background-image {
-    position       : absolute;
-    top            : 0;
-    left           : 0;
-    bottom         : 0;
-    right          : 0;
     background-size: cover;
   }
   .owl-text {
-    margin-top: 4rem;
+    padding-top: 4rem;
     div {
       margin-bottom: 1rem;
     }
@@ -117,9 +110,6 @@ h6 {
     line-height     : 1.34;
     background-color: $caru-bg;
     display         : inline;
-  }
-  img {
-    object-fit: cover;
   }
 }
 

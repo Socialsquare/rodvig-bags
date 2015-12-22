@@ -3944,16 +3944,10 @@ h6 {
   margin-bottom: 1.5rem; }
   .owl-carousel .item {
     height: 70vh;
-    max-height: 80vw; }
-  .owl-carousel .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    max-height: 80vw;
     background-size: cover; }
   .owl-carousel .owl-text {
-    margin-top: 4rem; }
+    padding-top: 4rem; }
     .owl-carousel .owl-text div {
       margin-bottom: 1rem; }
   .owl-carousel h1 {
@@ -3964,8 +3958,6 @@ h6 {
     line-height: 1.34;
     background-color: rgba(0, 0, 0, 0.5);
     display: inline; }
-  .owl-carousel img {
-    object-fit: cover; }
 
 .section {
   padding-bottom: 3rem;

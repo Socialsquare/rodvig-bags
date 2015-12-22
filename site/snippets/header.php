@@ -29,9 +29,9 @@
           </div>
           <div class="top-bar-right">
             <ul class="dropdown menu" data-dropdown-menu>
-              <li><a href="#about"><?php echo page('about')->title() ?></a></li>
-              <li><a href="#bags"><?php echo page('bags')->title() ?></a></li>
-              <li><a href="#contact">
+              <li><a href="#about" class="scroll"><?php echo page('about')->title() ?></a></li>
+              <li><a href="#bags" class="scroll"><?php echo page('bags')->title() ?></a></li>
+              <li><a href="#contact" class="scroll">
                 <?php if ($site->language() == 'en'): ?>
                   Contact
                 <?php else: ?>
