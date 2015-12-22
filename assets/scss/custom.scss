@@ -76,13 +76,17 @@ h6 {
 .title-bar {
   color     : $body-font-color;
   background: $white;
-  .menu-icon::after {
-    background: $body-font-color;
-    box-shadow: 0 7px 0 $body-font-color, 0 14px 0 $body-font-color;
+  .menu-icon {
+    height: 18px;
+    &::after {
+      background: $body-font-color;
+      box-shadow: 0 7px 0 $body-font-color, 0 14px 0 $body-font-color;
+    }
   }
   svg {
-    float: right;
-    width: 8rem;
+    float     : right;
+    width     : 8rem;
+    margin-top: 0.1rem;
   }
 }
 
@@ -91,11 +95,9 @@ h6 {
   color        : white;
   margin-bottom: $section-padding*0.5;
   .item {
-    height    : 70vh;
-    max-height: 80vw;
+    height         : 70vh;
+    max-height     : 80vw;
     background-size: cover;
-  }
-  .owl-text {
     padding-top: 4rem;
     div {
       margin-bottom: 1rem;

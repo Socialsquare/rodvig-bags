@@ -3932,12 +3932,15 @@ h6 {
 .title-bar {
   color: #252627;
   background: #fefefe; }
-  .title-bar .menu-icon::after {
-    background: #252627;
-    box-shadow: 0 7px 0 #252627, 0 14px 0 #252627; }
+  .title-bar .menu-icon {
+    height: 18px; }
+    .title-bar .menu-icon::after {
+      background: #252627;
+      box-shadow: 0 7px 0 #252627, 0 14px 0 #252627; }
   .title-bar svg {
     float: right;
-    width: 8rem; }
+    width: 8rem;
+    margin-top: 0.1rem; }
 
 .owl-carousel {
   color: white;
@@ -3945,10 +3948,9 @@ h6 {
   .owl-carousel .item {
     height: 70vh;
     max-height: 80vw;
-    background-size: cover; }
-  .owl-carousel .owl-text {
+    background-size: cover;
     padding-top: 4rem; }
-    .owl-carousel .owl-text div {
+    .owl-carousel .item div {
       margin-bottom: 1rem; }
   .owl-carousel h1 {
     display: inline;
