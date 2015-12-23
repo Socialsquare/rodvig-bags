@@ -22,6 +22,7 @@
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="assets/bower_components/what-input/what-input.js"></script>
   <script src="assets/bower_components/foundation-sites/dist/foundation.js"></script>
+  <script src="assets/bower_components/lightbox2/dist/js/lightbox.js"></script>
   <script src="assets/js/owl.js"></script>
   <script src="assets/js/app.js"></script>
 </body>

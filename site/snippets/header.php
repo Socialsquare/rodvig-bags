@@ -11,6 +11,7 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <?php snippet('favicon') ?>
   <?php echo css('assets/css/app.css') ?>
+  <link href="assets/bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,8 +30,8 @@
           </div>
           <div class="top-bar-right">
             <ul class="dropdown menu" data-dropdown-menu>
-              <li><a href="#about" class="scroll"><?php echo page('about')->title() ?></a></li>
               <li><a href="#bags" class="scroll"><?php echo page('bags')->title() ?></a></li>
+              <li><a href="#about" class="scroll"><?php echo page('about')->title() ?></a></li>
               <li><a href="#contact" class="scroll">
                 <?php if ($site->language() == 'en'): ?>
                   Contact
