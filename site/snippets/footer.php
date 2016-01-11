@@ -4,6 +4,7 @@
         <div class="column profile">
           <img src="<?php echo $item->url() ?>" />
           <div><?php echo $item->profile_name() ?></div>
+          <div><?php echo $item->profile_title() ?></div>
           <div><a href="mailto:<?php echo $item->email() ?>"><?php echo $item->email() ?></a></div>
           <div><a href="tel:<?php echo $item->phone() ?>"><?php echo $item->phone() ?></a></div>
         </div>

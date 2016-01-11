@@ -8,6 +8,9 @@ files:
     profile_name:
       label: Name
       type:  text
+    profile_title:
+      label: Title
+      type:  text
     email:
       label: Email
       type:  text
