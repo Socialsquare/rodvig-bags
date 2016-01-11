@@ -1378,6 +1378,91 @@ kbd {
   h3 {
     page-break-after: avoid; } }
 
+.hide {
+  display: none !important; }
+
+.invisible {
+  visibility: hidden; }
+
+@media screen and (min-width: 0em) and (max-width: 39.9375em) {
+  .hide-for-small-only {
+    display: none !important; } }
+
+@media screen and (max-width: 0em), screen and (min-width: 40em) {
+  .show-for-small-only {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) {
+  .hide-for-medium {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em) {
+  .show-for-medium {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .hide-for-medium-only {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em), screen and (min-width: 64em) {
+  .show-for-medium-only {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) {
+  .hide-for-large {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em) {
+  .show-for-large {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .hide-for-large-only {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em), screen and (min-width: 75em) {
+  .show-for-large-only {
+    display: none !important; } }
+
+.show-for-sr,
+.show-on-focus {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0); }
+
+.show-on-focus:active, .show-on-focus:focus {
+  position: static !important;
+  height: auto;
+  width: auto;
+  overflow: visible;
+  clip: auto; }
+
+.show-for-landscape,
+.hide-for-portrait {
+  display: block !important; }
+  @media screen and (orientation: landscape) {
+    .show-for-landscape,
+    .hide-for-portrait {
+      display: block !important; } }
+  @media screen and (orientation: portrait) {
+    .show-for-landscape,
+    .hide-for-portrait {
+      display: none !important; } }
+
+.hide-for-landscape,
+.show-for-portrait {
+  display: none !important; }
+  @media screen and (orientation: landscape) {
+    .hide-for-landscape,
+    .show-for-portrait {
+      display: none !important; } }
+  @media screen and (orientation: portrait) {
+    .hide-for-landscape,
+    .show-for-portrait {
+      display: block !important; } }
+
 .menu {
   margin: 0;
   list-style-type: none; }
@@ -1758,10 +1843,9 @@ h6 {
   padding-left: 0;
   padding-right: 0; }
   .top-bar .top-bar-left svg {
-    margin-top: 0.25rem;
     display: block;
-    height: 2rem;
-    width: 12.04819rem; }
+    height: 2.5rem;
+    width: 15.51875rem; }
   .top-bar a {
     color: #252627;
     font-family: "clear_sans_mediumregular", Helvetica, Roboto, Arial, sans-serif; }
@@ -1796,9 +1880,11 @@ h6 {
   margin-bottom: 1.5rem;
   background-color: rgba(37, 38, 39, 0.5); }
   .owl-carousel .item {
-    height: 70vh;
-    max-height: 80vw;
+    height: 40rem;
+    max-height: 70%;
+    max-height: 100vw;
     background-size: cover;
+    background-position: center center;
     padding-top: 4rem; }
     .owl-carousel .item div {
       margin-bottom: 1rem; }
@@ -1815,11 +1901,13 @@ h6 {
   padding-bottom: 3rem;
   padding-top: 3rem; }
 
-#intro img {
-  margin: 0 auto 0.5rem;
-  display: block;
-  width: 100%;
-  max-width: 50vw; }
+#intro {
+  padding-top: 1rem; }
+  #intro img {
+    margin: 2rem auto 1rem;
+    display: block;
+    width: 100%;
+    max-width: 50vw; }
 
 #bags {
   color: #fefefe;
@@ -1835,7 +1923,7 @@ footer {
   footer .odvig {
     fill: #fefefe; }
   footer svg {
-    max-height: 2rem;
+    max-height: 3.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem; }
   footer .profile {
