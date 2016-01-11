@@ -7,6 +7,9 @@ html {
   -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html, body {
+  height: 100%;
+}
 h5 {
   margin-bottom: 0;
 }
@@ -91,13 +94,15 @@ h6 {
 
 // Carousel
 .owl-carousel {
-  color        : white;
-  margin-bottom: $section-padding*0.5;
+  color           : white;
+  margin-bottom   : $section-padding*0.5;
   background-color: rgba($body-font-color, 0.5);
+  height          : 80%;
+  max-height      : 100vw;
+  .owl-stage-outer, .owl-stage, .owl-item, .item {
+    height: 100%;
+  }
   .item {
-    height         : 40rem;
-    max-height     : 70%;
-    max-height     : 100vw;
     background-size: cover;
     background-position: center center;
     padding-top: 4rem;
@@ -138,8 +143,12 @@ h6 {
 #bags {
   color           : $white;
   background-color: $body-font-color;
+  padding-bottom: $section-padding - 2rem;
   img {
     margin-bottom: 0.5rem;
+  }
+  p {
+    margin-bottom: 2rem;
   }
 }
 
@@ -177,6 +186,14 @@ footer {
   .copyright {
     padding-top: 1.5rem;
     opacity    : 0.5;
+  }
+}
+
+
+/* Small only */
+@media screen and (max-width: 40em) {
+  .top-bar {
+    display: none;
   }
 }
 

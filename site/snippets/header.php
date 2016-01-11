@@ -17,7 +17,7 @@
 <body>
 
   <header>
-    <div class="title-bar" data-responsive-toggle="rodvig-menu" data-hide-for="medium">
+    <div class="title-bar show-for-small-only" data-responsive-toggle="rodvig-menu">
       <button class="menu-icon" type="button" data-toggle></button>
       <?php snippet('logo') ?>
     </div>

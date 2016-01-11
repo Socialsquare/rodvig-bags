@@ -13,12 +13,18 @@
   font-weight: normal;
   font-style: normal; }
 
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.0.6
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
+   * 1. Set default font family to sans-serif.
+   * 2. Prevent iOS and IE text size adjust after device orientation change,
+   *    without disabling user zoom.
+   */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -28,19 +34,19 @@ html {
   /* 2 */ }
 
 /**
- * Remove default margin.
- */
+   * Remove default margin.
+   */
 body {
   margin: 0; }
 
 /* HTML5 display definitions
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
+   * Correct `block` display not defined for any HTML5 element in IE 8/9.
+   * Correct `block` display not defined for `details` or `summary` in IE 10/11
+   * and Firefox.
+   * Correct `block` display not defined for `main` in IE 11.
+   */
 article,
 aside,
 details,
@@ -57,9 +63,9 @@ summary {
   display: block; }
 
 /**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
+   * 1. Correct `inline-block` display not defined in IE 8/9.
+   * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+   */
 audio,
 canvas,
 progress,
@@ -70,82 +76,82 @@ video {
   /* 2 */ }
 
 /**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
+   * Prevent modern browsers from displaying `audio` without controls.
+   * Remove excess height in iOS 5 devices.
+   */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
 /**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
- */
+   * Address `[hidden]` styling not present in IE 8/9/10.
+   * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+   */
 [hidden],
 template {
   display: none; }
 
 /* Links
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Remove the gray background color from active links in IE 10.
- */
+   * Remove the gray background color from active links in IE 10.
+   */
 a {
   background-color: transparent; }
 
 /**
- * Improve readability of focused elements when they are also in an
- * active/hover state.
- */
+   * Improve readability of focused elements when they are also in an
+   * active/hover state.
+   */
 a:active,
 a:hover {
   outline: 0; }
 
 /* Text-level semantics
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
+   * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+   */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
+   * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+   */
 b,
 strong {
   font-weight: bold; }
 
 /**
- * Address styling not present in Safari and Chrome.
- */
+   * Address styling not present in Safari and Chrome.
+   */
 dfn {
   font-style: italic; }
 
 /**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
+   * Address variable `h1` font-size and margin within `section` and `article`
+   * contexts in Firefox 4+, Safari, and Chrome.
+   */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
 /**
- * Address styling not present in IE 8/9.
- */
+   * Address styling not present in IE 8/9.
+   */
 mark {
   background: #ff0;
   color: #000; }
 
 /**
- * Address inconsistent and variable font size in all browsers.
- */
+   * Address inconsistent and variable font size in all browsers.
+   */
 small {
   font-size: 80%; }
 
 /**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
+   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+   */
 sub,
 sup {
   font-size: 75%;
@@ -160,43 +166,43 @@ sub {
   bottom: -0.25em; }
 
 /* Embedded content
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Remove border when inside `a` element in IE 8/9/10.
- */
+   * Remove border when inside `a` element in IE 8/9/10.
+   */
 img {
   border: 0; }
 
 /**
- * Correct overflow not hidden in IE 9/10/11.
- */
+   * Correct overflow not hidden in IE 9/10/11.
+   */
 svg:not(:root) {
   overflow: hidden; }
 
 /* Grouping content
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Address margin not present in IE 8/9 and Safari.
- */
+   * Address margin not present in IE 8/9 and Safari.
+   */
 figure {
   margin: 1em 40px; }
 
 /**
- * Address differences between Firefox and other browsers.
- */
+   * Address differences between Firefox and other browsers.
+   */
 hr {
   box-sizing: content-box;
   height: 0; }
 
 /**
- * Contain overflow in all browsers.
- */
+   * Contain overflow in all browsers.
+   */
 pre {
   overflow: auto; }
 
 /**
- * Address odd `em`-unit font size rendering in all browsers.
- */
+   * Address odd `em`-unit font size rendering in all browsers.
+   */
 code,
 kbd,
 pre,
@@ -205,17 +211,17 @@ samp {
   font-size: 1em; }
 
 /* Forms
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
+   * Known limitation: by default, Chrome and Safari on OS X allow very limited
+   * styling of `select`, unless a `border` property is set.
+   */
 /**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
+   * 1. Correct color not being inherited.
+   *    Known issue: affects color of disabled elements.
+   * 2. Correct font properties not being inherited.
+   * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+   */
 button,
 input,
 optgroup,
@@ -229,28 +235,28 @@ textarea {
   /* 3 */ }
 
 /**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
+   * Address `overflow` set to `hidden` in IE 8/9/10/11.
+   */
 button {
   overflow: visible; }
 
 /**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
+   * Address inconsistent `text-transform` inheritance for `button` and `select`.
+   * All other form control elements do not inherit `text-transform` values.
+   * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+   * Correct `select` style inheritance in Firefox.
+   */
 button,
 select {
   text-transform: none; }
 
 /**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
+   * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+   *    and `video` controls.
+   * 2. Correct inability to style clickable `input` types in iOS.
+   * 3. Improve usability and consistency of cursor style between image-type
+   *    `input` and others.
+   */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -261,34 +267,34 @@ input[type="submit"] {
   /* 3 */ }
 
 /**
- * Re-set default cursor for disabled elements.
- */
+   * Re-set default cursor for disabled elements.
+   */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
 /**
- * Remove inner padding and border in Firefox 4+.
- */
+   * Remove inner padding and border in Firefox 4+.
+   */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
 /**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
+   * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+   * the UA stylesheet.
+   */
 input {
   line-height: normal; }
 
 /**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
+   * It's recommended that you don't attempt to style these elements.
+   * Firefox's implementation doesn't respect box-sizing, padding, or width.
+   *
+   * 1. Address box sizing set to `content-box` in IE 8/9/10.
+   * 2. Remove excess padding in IE 8/9/10.
+   */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -297,18 +303,18 @@ input[type="radio"] {
   /* 2 */ }
 
 /**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
+   * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+   * `font-size` values of the `input`, it causes the cursor style of the
+   * decrement button to change from `default` to `text`.
+   */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
 /**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
- */
+   * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+   * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+   */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -316,26 +322,26 @@ input[type="search"] {
   /* 2 */ }
 
 /**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
+   * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+   * Safari (but not Chrome) clips the cancel button when the search input has
+   * padding (and `textfield` appearance).
+   */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
- * Define consistent border, margin, and padding.
- */
+   * Define consistent border, margin, and padding.
+   */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
 /**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
+   * 1. Correct `color` not being inherited in IE 8/9/10/11.
+   * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+   */
 legend {
   border: 0;
   /* 1 */
@@ -343,23 +349,23 @@ legend {
   /* 2 */ }
 
 /**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
+   * Remove default vertical scrollbar in IE 8/9/10/11.
+   */
 textarea {
   overflow: auto; }
 
 /**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
+   * Don't inherit the `font-weight` (applied by a rule above).
+   * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+   */
 optgroup {
   font-weight: bold; }
 
 /* Tables
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Remove most spacing between table cells.
- */
+   * Remove most spacing between table cells.
+   */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -367,9 +373,6 @@ table {
 td,
 th {
   padding: 0; }
-
-body.is-reveal-open {
-  overflow: hidden; }
 
 .foundation-mq {
   font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em"; }
@@ -453,22 +456,22 @@ button {
     padding-left: 0;
     padding-right: 0; }
   .row.small-uncollapse > .column, .row.small-uncollapse > .columns {
-    padding-left: 30px;
-    padding-right: 30px; }
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem; }
   @media screen and (min-width: 40em) {
     .row.medium-collapse > .column, .row.medium-collapse > .columns {
       padding-left: 0;
       padding-right: 0; }
     .row.medium-uncollapse > .column, .row.medium-uncollapse > .columns {
-      padding-left: 30px;
-      padding-right: 30px; } }
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
   @media screen and (min-width: 64em) {
     .row.large-collapse > .column, .row.large-collapse > .columns {
       padding-left: 0;
       padding-right: 0; }
     .row.large-uncollapse > .column, .row.large-uncollapse > .columns {
-      padding-left: 30px;
-      padding-right: 30px; } }
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
   .row.expanded {
     max-width: none; }
 
@@ -479,11 +482,16 @@ button {
   padding-right: 0.9375rem; }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: right; }
-  .column.end:last-child, .end.columns:last-child {
+  .column.end:last-child:last-child, .end.columns:last-child:last-child {
     float: left; }
 
 .column.row.row, .row.row.columns {
   float: none; }
+  .row .column.row.row, .row .row.row.columns {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0; }
 
 .small-1 {
   width: 8.33333%; }
@@ -645,64 +653,64 @@ button {
 .small-offset-11 {
   margin-left: 91.66667%; }
 
-.small-up-1 .column, .small-up-1 .columns {
+.small-up-1 > .column, .small-up-1 > .columns {
   width: 100%;
   float: left; }
-  .small-up-1 .column:nth-of-type(1n), .small-up-1 .columns:nth-of-type(1n) {
+  .small-up-1 > .column:nth-of-type(1n), .small-up-1 > .columns:nth-of-type(1n) {
     clear: none; }
-  .small-up-1 .column:nth-of-type(1n+1), .small-up-1 .columns:nth-of-type(1n+1) {
+  .small-up-1 > .column:nth-of-type(1n+1), .small-up-1 > .columns:nth-of-type(1n+1) {
     clear: both; }
-  .small-up-1 .column:last-child, .small-up-1 .columns:last-child {
+  .small-up-1 > .column:last-child, .small-up-1 > .columns:last-child {
     float: left; }
 
-.small-up-2 .column, .small-up-2 .columns {
+.small-up-2 > .column, .small-up-2 > .columns {
   width: 50%;
   float: left; }
-  .small-up-2 .column:nth-of-type(1n), .small-up-2 .columns:nth-of-type(1n) {
+  .small-up-2 > .column:nth-of-type(1n), .small-up-2 > .columns:nth-of-type(1n) {
     clear: none; }
-  .small-up-2 .column:nth-of-type(2n+1), .small-up-2 .columns:nth-of-type(2n+1) {
+  .small-up-2 > .column:nth-of-type(2n+1), .small-up-2 > .columns:nth-of-type(2n+1) {
     clear: both; }
-  .small-up-2 .column:last-child, .small-up-2 .columns:last-child {
+  .small-up-2 > .column:last-child, .small-up-2 > .columns:last-child {
     float: left; }
 
-.small-up-3 .column, .small-up-3 .columns {
+.small-up-3 > .column, .small-up-3 > .columns {
   width: 33.33333%;
   float: left; }
-  .small-up-3 .column:nth-of-type(1n), .small-up-3 .columns:nth-of-type(1n) {
+  .small-up-3 > .column:nth-of-type(1n), .small-up-3 > .columns:nth-of-type(1n) {
     clear: none; }
-  .small-up-3 .column:nth-of-type(3n+1), .small-up-3 .columns:nth-of-type(3n+1) {
+  .small-up-3 > .column:nth-of-type(3n+1), .small-up-3 > .columns:nth-of-type(3n+1) {
     clear: both; }
-  .small-up-3 .column:last-child, .small-up-3 .columns:last-child {
+  .small-up-3 > .column:last-child, .small-up-3 > .columns:last-child {
     float: left; }
 
-.small-up-4 .column, .small-up-4 .columns {
+.small-up-4 > .column, .small-up-4 > .columns {
   width: 25%;
   float: left; }
-  .small-up-4 .column:nth-of-type(1n), .small-up-4 .columns:nth-of-type(1n) {
+  .small-up-4 > .column:nth-of-type(1n), .small-up-4 > .columns:nth-of-type(1n) {
     clear: none; }
-  .small-up-4 .column:nth-of-type(4n+1), .small-up-4 .columns:nth-of-type(4n+1) {
+  .small-up-4 > .column:nth-of-type(4n+1), .small-up-4 > .columns:nth-of-type(4n+1) {
     clear: both; }
-  .small-up-4 .column:last-child, .small-up-4 .columns:last-child {
+  .small-up-4 > .column:last-child, .small-up-4 > .columns:last-child {
     float: left; }
 
-.small-up-5 .column, .small-up-5 .columns {
+.small-up-5 > .column, .small-up-5 > .columns {
   width: 20%;
   float: left; }
-  .small-up-5 .column:nth-of-type(1n), .small-up-5 .columns:nth-of-type(1n) {
+  .small-up-5 > .column:nth-of-type(1n), .small-up-5 > .columns:nth-of-type(1n) {
     clear: none; }
-  .small-up-5 .column:nth-of-type(5n+1), .small-up-5 .columns:nth-of-type(5n+1) {
+  .small-up-5 > .column:nth-of-type(5n+1), .small-up-5 > .columns:nth-of-type(5n+1) {
     clear: both; }
-  .small-up-5 .column:last-child, .small-up-5 .columns:last-child {
+  .small-up-5 > .column:last-child, .small-up-5 > .columns:last-child {
     float: left; }
 
-.small-up-6 .column, .small-up-6 .columns {
+.small-up-6 > .column, .small-up-6 > .columns {
   width: 16.66667%;
   float: left; }
-  .small-up-6 .column:nth-of-type(1n), .small-up-6 .columns:nth-of-type(1n) {
+  .small-up-6 > .column:nth-of-type(1n), .small-up-6 > .columns:nth-of-type(1n) {
     clear: none; }
-  .small-up-6 .column:nth-of-type(6n+1), .small-up-6 .columns:nth-of-type(6n+1) {
+  .small-up-6 > .column:nth-of-type(6n+1), .small-up-6 > .columns:nth-of-type(6n+1) {
     clear: both; }
-  .small-up-6 .column:last-child, .small-up-6 .columns:last-child {
+  .small-up-6 > .column:last-child, .small-up-6 > .columns:last-child {
     float: left; }
 
 .column.small-centered, .small-centered.columns {
@@ -832,59 +840,59 @@ button {
     width: 100%; }
   .medium-offset-11 {
     margin-left: 91.66667%; }
-  .medium-up-1 .column, .medium-up-1 .columns {
+  .medium-up-1 > .column, .medium-up-1 > .columns {
     width: 100%;
     float: left; }
-    .medium-up-1 .column:nth-of-type(1n), .medium-up-1 .columns:nth-of-type(1n) {
+    .medium-up-1 > .column:nth-of-type(1n), .medium-up-1 > .columns:nth-of-type(1n) {
       clear: none; }
-    .medium-up-1 .column:nth-of-type(1n+1), .medium-up-1 .columns:nth-of-type(1n+1) {
+    .medium-up-1 > .column:nth-of-type(1n+1), .medium-up-1 > .columns:nth-of-type(1n+1) {
       clear: both; }
-    .medium-up-1 .column:last-child, .medium-up-1 .columns:last-child {
+    .medium-up-1 > .column:last-child, .medium-up-1 > .columns:last-child {
       float: left; }
-  .medium-up-2 .column, .medium-up-2 .columns {
+  .medium-up-2 > .column, .medium-up-2 > .columns {
     width: 50%;
     float: left; }
-    .medium-up-2 .column:nth-of-type(1n), .medium-up-2 .columns:nth-of-type(1n) {
+    .medium-up-2 > .column:nth-of-type(1n), .medium-up-2 > .columns:nth-of-type(1n) {
       clear: none; }
-    .medium-up-2 .column:nth-of-type(2n+1), .medium-up-2 .columns:nth-of-type(2n+1) {
+    .medium-up-2 > .column:nth-of-type(2n+1), .medium-up-2 > .columns:nth-of-type(2n+1) {
       clear: both; }
-    .medium-up-2 .column:last-child, .medium-up-2 .columns:last-child {
+    .medium-up-2 > .column:last-child, .medium-up-2 > .columns:last-child {
       float: left; }
-  .medium-up-3 .column, .medium-up-3 .columns {
+  .medium-up-3 > .column, .medium-up-3 > .columns {
     width: 33.33333%;
     float: left; }
-    .medium-up-3 .column:nth-of-type(1n), .medium-up-3 .columns:nth-of-type(1n) {
+    .medium-up-3 > .column:nth-of-type(1n), .medium-up-3 > .columns:nth-of-type(1n) {
       clear: none; }
-    .medium-up-3 .column:nth-of-type(3n+1), .medium-up-3 .columns:nth-of-type(3n+1) {
+    .medium-up-3 > .column:nth-of-type(3n+1), .medium-up-3 > .columns:nth-of-type(3n+1) {
       clear: both; }
-    .medium-up-3 .column:last-child, .medium-up-3 .columns:last-child {
+    .medium-up-3 > .column:last-child, .medium-up-3 > .columns:last-child {
       float: left; }
-  .medium-up-4 .column, .medium-up-4 .columns {
+  .medium-up-4 > .column, .medium-up-4 > .columns {
     width: 25%;
     float: left; }
-    .medium-up-4 .column:nth-of-type(1n), .medium-up-4 .columns:nth-of-type(1n) {
+    .medium-up-4 > .column:nth-of-type(1n), .medium-up-4 > .columns:nth-of-type(1n) {
       clear: none; }
-    .medium-up-4 .column:nth-of-type(4n+1), .medium-up-4 .columns:nth-of-type(4n+1) {
+    .medium-up-4 > .column:nth-of-type(4n+1), .medium-up-4 > .columns:nth-of-type(4n+1) {
       clear: both; }
-    .medium-up-4 .column:last-child, .medium-up-4 .columns:last-child {
+    .medium-up-4 > .column:last-child, .medium-up-4 > .columns:last-child {
       float: left; }
-  .medium-up-5 .column, .medium-up-5 .columns {
+  .medium-up-5 > .column, .medium-up-5 > .columns {
     width: 20%;
     float: left; }
-    .medium-up-5 .column:nth-of-type(1n), .medium-up-5 .columns:nth-of-type(1n) {
+    .medium-up-5 > .column:nth-of-type(1n), .medium-up-5 > .columns:nth-of-type(1n) {
       clear: none; }
-    .medium-up-5 .column:nth-of-type(5n+1), .medium-up-5 .columns:nth-of-type(5n+1) {
+    .medium-up-5 > .column:nth-of-type(5n+1), .medium-up-5 > .columns:nth-of-type(5n+1) {
       clear: both; }
-    .medium-up-5 .column:last-child, .medium-up-5 .columns:last-child {
+    .medium-up-5 > .column:last-child, .medium-up-5 > .columns:last-child {
       float: left; }
-  .medium-up-6 .column, .medium-up-6 .columns {
+  .medium-up-6 > .column, .medium-up-6 > .columns {
     width: 16.66667%;
     float: left; }
-    .medium-up-6 .column:nth-of-type(1n), .medium-up-6 .columns:nth-of-type(1n) {
+    .medium-up-6 > .column:nth-of-type(1n), .medium-up-6 > .columns:nth-of-type(1n) {
       clear: none; }
-    .medium-up-6 .column:nth-of-type(6n+1), .medium-up-6 .columns:nth-of-type(6n+1) {
+    .medium-up-6 > .column:nth-of-type(6n+1), .medium-up-6 > .columns:nth-of-type(6n+1) {
       clear: both; }
-    .medium-up-6 .column:last-child, .medium-up-6 .columns:last-child {
+    .medium-up-6 > .column:last-child, .medium-up-6 > .columns:last-child {
       float: left; }
   .column.medium-centered, .medium-centered.columns {
     float: none;
@@ -1012,59 +1020,59 @@ button {
     width: 100%; }
   .large-offset-11 {
     margin-left: 91.66667%; }
-  .large-up-1 .column, .large-up-1 .columns {
+  .large-up-1 > .column, .large-up-1 > .columns {
     width: 100%;
     float: left; }
-    .large-up-1 .column:nth-of-type(1n), .large-up-1 .columns:nth-of-type(1n) {
+    .large-up-1 > .column:nth-of-type(1n), .large-up-1 > .columns:nth-of-type(1n) {
       clear: none; }
-    .large-up-1 .column:nth-of-type(1n+1), .large-up-1 .columns:nth-of-type(1n+1) {
+    .large-up-1 > .column:nth-of-type(1n+1), .large-up-1 > .columns:nth-of-type(1n+1) {
       clear: both; }
-    .large-up-1 .column:last-child, .large-up-1 .columns:last-child {
+    .large-up-1 > .column:last-child, .large-up-1 > .columns:last-child {
       float: left; }
-  .large-up-2 .column, .large-up-2 .columns {
+  .large-up-2 > .column, .large-up-2 > .columns {
     width: 50%;
     float: left; }
-    .large-up-2 .column:nth-of-type(1n), .large-up-2 .columns:nth-of-type(1n) {
+    .large-up-2 > .column:nth-of-type(1n), .large-up-2 > .columns:nth-of-type(1n) {
       clear: none; }
-    .large-up-2 .column:nth-of-type(2n+1), .large-up-2 .columns:nth-of-type(2n+1) {
+    .large-up-2 > .column:nth-of-type(2n+1), .large-up-2 > .columns:nth-of-type(2n+1) {
       clear: both; }
-    .large-up-2 .column:last-child, .large-up-2 .columns:last-child {
+    .large-up-2 > .column:last-child, .large-up-2 > .columns:last-child {
       float: left; }
-  .large-up-3 .column, .large-up-3 .columns {
+  .large-up-3 > .column, .large-up-3 > .columns {
     width: 33.33333%;
     float: left; }
-    .large-up-3 .column:nth-of-type(1n), .large-up-3 .columns:nth-of-type(1n) {
+    .large-up-3 > .column:nth-of-type(1n), .large-up-3 > .columns:nth-of-type(1n) {
       clear: none; }
-    .large-up-3 .column:nth-of-type(3n+1), .large-up-3 .columns:nth-of-type(3n+1) {
+    .large-up-3 > .column:nth-of-type(3n+1), .large-up-3 > .columns:nth-of-type(3n+1) {
       clear: both; }
-    .large-up-3 .column:last-child, .large-up-3 .columns:last-child {
+    .large-up-3 > .column:last-child, .large-up-3 > .columns:last-child {
       float: left; }
-  .large-up-4 .column, .large-up-4 .columns {
+  .large-up-4 > .column, .large-up-4 > .columns {
     width: 25%;
     float: left; }
-    .large-up-4 .column:nth-of-type(1n), .large-up-4 .columns:nth-of-type(1n) {
+    .large-up-4 > .column:nth-of-type(1n), .large-up-4 > .columns:nth-of-type(1n) {
       clear: none; }
-    .large-up-4 .column:nth-of-type(4n+1), .large-up-4 .columns:nth-of-type(4n+1) {
+    .large-up-4 > .column:nth-of-type(4n+1), .large-up-4 > .columns:nth-of-type(4n+1) {
       clear: both; }
-    .large-up-4 .column:last-child, .large-up-4 .columns:last-child {
+    .large-up-4 > .column:last-child, .large-up-4 > .columns:last-child {
       float: left; }
-  .large-up-5 .column, .large-up-5 .columns {
+  .large-up-5 > .column, .large-up-5 > .columns {
     width: 20%;
     float: left; }
-    .large-up-5 .column:nth-of-type(1n), .large-up-5 .columns:nth-of-type(1n) {
+    .large-up-5 > .column:nth-of-type(1n), .large-up-5 > .columns:nth-of-type(1n) {
       clear: none; }
-    .large-up-5 .column:nth-of-type(5n+1), .large-up-5 .columns:nth-of-type(5n+1) {
+    .large-up-5 > .column:nth-of-type(5n+1), .large-up-5 > .columns:nth-of-type(5n+1) {
       clear: both; }
-    .large-up-5 .column:last-child, .large-up-5 .columns:last-child {
+    .large-up-5 > .column:last-child, .large-up-5 > .columns:last-child {
       float: left; }
-  .large-up-6 .column, .large-up-6 .columns {
+  .large-up-6 > .column, .large-up-6 > .columns {
     width: 16.66667%;
     float: left; }
-    .large-up-6 .column:nth-of-type(1n), .large-up-6 .columns:nth-of-type(1n) {
+    .large-up-6 > .column:nth-of-type(1n), .large-up-6 > .columns:nth-of-type(1n) {
       clear: none; }
-    .large-up-6 .column:nth-of-type(6n+1), .large-up-6 .columns:nth-of-type(6n+1) {
+    .large-up-6 > .column:nth-of-type(6n+1), .large-up-6 > .columns:nth-of-type(6n+1) {
       clear: both; }
-    .large-up-6 .column:last-child, .large-up-6 .columns:last-child {
+    .large-up-6 > .column:last-child, .large-up-6 > .columns:last-child {
       float: left; }
   .column.large-centered, .large-centered.columns {
     float: none;
@@ -1187,8 +1195,10 @@ a {
 hr {
   max-width: 75rem;
   height: 0;
+  border-right: 0;
   border-top: 0;
   border-bottom: 1px solid #cacaca;
+  border-left: 0;
   margin: 1.25rem auto;
   clear: both; }
 
@@ -1279,44 +1289,32 @@ kbd {
 .text-left {
   text-align: left; }
 
-@media screen and (min-width: 40em) {
-  .medium-text-left {
-    text-align: left; } }
-
-@media screen and (min-width: 64em) {
-  .large-text-left {
-    text-align: left; } }
-
 .text-right {
   text-align: right; }
 
-@media screen and (min-width: 40em) {
-  .medium-text-right {
-    text-align: right; } }
-
-@media screen and (min-width: 64em) {
-  .large-text-right {
-    text-align: right; } }
-
 .text-center {
   text-align: center; }
-
-@media screen and (min-width: 40em) {
-  .medium-text-center {
-    text-align: center; } }
-
-@media screen and (min-width: 64em) {
-  .large-text-center {
-    text-align: center; } }
 
 .text-justify {
   text-align: justify; }
 
 @media screen and (min-width: 40em) {
+  .medium-text-left {
+    text-align: left; }
+  .medium-text-right {
+    text-align: right; }
+  .medium-text-center {
+    text-align: center; }
   .medium-text-justify {
     text-align: justify; } }
 
 @media screen and (min-width: 64em) {
+  .large-text-left {
+    text-align: left; }
+  .large-text-right {
+    text-align: right; }
+  .large-text-center {
+    text-align: center; }
   .large-text-justify {
     text-align: justify; } }
 
@@ -1469,9 +1467,9 @@ kbd {
   .menu > li {
     display: table-cell;
     vertical-align: middle; }
-    [data-whatinput="mouse"] .menu > li {
+    [data-whatinput='mouse'] .menu > li {
       outline: 0; }
-  .menu > li > a {
+  .menu > li:not(.menu-text) > a {
     display: block;
     padding: 0.7rem 1rem;
     line-height: 1; }
@@ -1544,6 +1542,9 @@ kbd {
   padding-bottom: 0;
   padding: 0.7rem 1rem; }
 
+.no-js [data-responsive-menu] ul {
+  display: none; }
+
 .title-bar {
   background: #0a0a0a;
   color: #fefefe;
@@ -1582,34 +1583,13 @@ kbd {
     display: block;
     width: 100%;
     height: 2px;
-    background: white;
+    background: #fefefe;
     top: 0;
     left: 0;
-    box-shadow: 0 7px 0 white, 0 14px 0 white; }
+    box-shadow: 0 7px 0 #fefefe, 0 14px 0 #fefefe; }
   .menu-icon:hover::after {
     background: #cacaca;
     box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca; }
-
-.menu-icon.dark {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  cursor: pointer;
-  width: 20px;
-  height: 16px; }
-  .menu-icon.dark::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: black;
-    top: 0;
-    left: 0;
-    box-shadow: 0 7px 0 black, 0 14px 0 black; }
-  .menu-icon.dark:hover::after {
-    background: #666;
-    box-shadow: 0 7px 0 #666, 0 14px 0 #666; }
 
 .top-bar {
   padding: 1.5rem; }
@@ -1618,17 +1598,46 @@ kbd {
     display: table; }
   .top-bar::after {
     clear: both; }
-  .top-bar, .top-bar ul {
+  .top-bar,
+  .top-bar ul {
     background-color: #fefefe; }
+  .top-bar a {
+    color: #252627; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }
+  .top-bar input.button {
+    width: auto; }
 
-@media screen and (min-width: 40em) {
-  .top-bar-left {
-    float: left; }
+@media screen and (max-width: 39.9375em) {
+  .stacked-for-small .top-bar-right {
+    width: 100%; }
+  .stacked-for-small .top-bar-left {
+    width: 100%; } }
+
+@media screen and (max-width: 63.9375em) {
+  .stacked-for-medium .top-bar-right {
+    width: 100%; }
+  .stacked-for-medium .top-bar-left {
+    width: 100%; } }
+
+@media screen and (max-width: 74.9375em) {
+  .stacked-for-large .top-bar-right {
+    width: 100%; }
+  .stacked-for-large .top-bar-left {
+    width: 100%; } }
+
+@media screen and (max-width: 39.9375em) {
   .top-bar-right {
-    float: right; } }
+    width: 100%; }
+  .top-bar-left {
+    width: 100%; } }
+
+.top-bar-left {
+  float: left; }
+
+.top-bar-right {
+  float: right; }
 
 /*
  *  Owl Carousel - Animate Plugin
@@ -1810,6 +1819,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+html, body {
+  height: 100%; }
+
 h5 {
   margin-bottom: 0; }
 
@@ -1878,11 +1890,12 @@ h6 {
 .owl-carousel {
   color: white;
   margin-bottom: 1.5rem;
-  background-color: rgba(37, 38, 39, 0.5); }
+  background-color: rgba(37, 38, 39, 0.5);
+  height: 80%;
+  max-height: 100vw; }
+  .owl-carousel .owl-stage-outer, .owl-carousel .owl-stage, .owl-carousel .owl-item, .owl-carousel .item {
+    height: 100%; }
   .owl-carousel .item {
-    height: 40rem;
-    max-height: 70%;
-    max-height: 100vw;
     background-size: cover;
     background-position: center center;
     padding-top: 4rem; }
@@ -1911,9 +1924,12 @@ h6 {
 
 #bags {
   color: #fefefe;
-  background-color: #252627; }
+  background-color: #252627;
+  padding-bottom: 1rem; }
   #bags img {
     margin-bottom: 0.5rem; }
+  #bags p {
+    margin-bottom: 2rem; }
 
 footer {
   background-color: #252627;
@@ -1941,6 +1957,11 @@ footer {
   footer .copyright {
     padding-top: 1.5rem;
     opacity: 0.5; }
+
+/* Small only */
+@media screen and (max-width: 40em) {
+  .top-bar {
+    display: none; } }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
